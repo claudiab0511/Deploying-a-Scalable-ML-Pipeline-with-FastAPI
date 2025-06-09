@@ -5,8 +5,9 @@ import pytest
 def test_one():
     """
     # add description for the first test
+    # testing simple addition
     """
-    # Your code here
+    assert 1 + 1 == 2
     pass
 
 
@@ -14,8 +15,9 @@ def test_one():
 def test_two():
     """
     # add description for the second test
+    # testing that converting string to uppercase works
     """
-    # Your code here
+    assert "hello".upper()  == "HELLO"
     pass
 
 
@@ -23,6 +25,9 @@ def test_two():
 def test_three():
     """
     # add description for the third test
+    # testing whether sorting a list returns the correct order
     """
-    # Your code here
+    data = [7, 6, 5, 4]
+    data.sort()
+    assert data == [7, 6, 5, 4]
     pass

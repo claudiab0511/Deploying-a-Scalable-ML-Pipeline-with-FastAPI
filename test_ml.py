@@ -29,5 +29,5 @@ def test_three():
     """
     data = [7, 6, 5, 4]
     data.sort()
-    assert data == [7, 6, 5, 4]
+    assert data == [4, 5, 6, 7]
     pass
